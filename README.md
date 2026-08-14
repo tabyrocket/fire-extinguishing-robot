@@ -7,6 +7,10 @@
 
 An autonomous, holonomic mobile robot engineered for real-time environment navigation, dynamic obstacle avoidance, optical flame localization, and target extinguishing. Developed as part of the **MECHENG 706** (Mechatronics Systems) curriculum at the **University of Auckland**.
 
+**Developers:**
+- **Abhijot Malhi** — [@tabyrocket](https://github.com/tabyrocket)
+- **Wayne Liang** — [@catxna](https://github.com/catxna)
+
 > **Achievement:** This robot was the **only entry in the cohort to achieve a 100% score across all benchmark evaluation runs**, demonstrating complete reliability in flame detection speed, navigation accuracy, obstacle clearance, and target extinguishing.
 
 ---
