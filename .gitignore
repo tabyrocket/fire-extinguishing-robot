@@ -1,0 +1,8 @@
+.vscode
+Project-1.code-workspace
+IR_Calibrate/.~lock.Calibration Data.xlsx#
+build
+Project-2.code-workspace
+.vs
+!FUZZY_TEST/main.exe
+!FUZZY_TEST/out.exe
