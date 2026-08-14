@@ -52,7 +52,6 @@ graph TD
 The chassis utilizes a 4-wheel omnidirectional configuration to achieve unconstrained 3-DOF planar motion (independent translation in $x, y$ and rotation $\omega$).
 
 - **Inverse Kinematics Formulation:**
-  $$\begin{bmatrix} \dot{\theta}_1 \\ \dot{\theta}_2 \\ \dot{\theta}_3 \\ \dot{\theta}_4 \end{bmatrix} = \frac{1}{R_w} \begin{bmatrix} 1 & 1 & -(L + l) \\ 1 & -1 & (L + l) \\ 1 & -1 & -(L + l) \\ 1 & 1 & (L + l) \end{bmatrix} \begin{bmatrix} \dot{x} \\ \dot{y} \\ \omega \end{bmatrix}$$
   *Parameters:* Wheel radius $R_w = 30\,\text{mm}$, half-wheelbase length $L = 105\,\text{mm}$, half-track width $l = 90\,\text{mm}$.
 - **Decoupled Kinematics (`moveDirectionCapX`):** Preserves prioritized lateral avoidance ($y$) and angular correction ($\omega$) by dynamically recalculating forward velocity headrooms within $[\pm 500]$ motor PWM bounds.
 - **Dynamic Drift Compensation & Deadband Handling:** Closed-loop non-linear friction break-away thresholds ($\ge 85\,\text{PWM}$) and heading cross-coupling compensators ensure straight-line fidelity.
